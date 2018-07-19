@@ -1,0 +1,227 @@
+.oauth-display-box {
+    text-align: center;
+}
+.oauth-display-box p.self-name {
+    font-size : 2.2rem;
+    margin-top: 2rem;
+}
+.oauth-display-box p.self-job {
+    font-size : 1.1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    /* 手机情况下显示 */
+    .mobile {
+        display: block;
+    }
+    .pc-display {
+        display: none;
+    }
+    .template-box {
+        margin: 0;
+    }
+    .image-box {
+        height: 20rem;
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+    .image-box img.oauth-image {
+        width: 11rem;
+        height: 15rem;
+        border: 0.3rem solid #ffffff;
+        margin: 2.2rem 0;
+    }
+    /* 左侧 */
+    .template-box .wrap-left {
+        width: 100%;
+        background-color: #17426c;
+    }
+    /* 右侧 */
+    .template-box .wrap-right {
+        width: 100%;
+        padding: 1.2rem;
+        background-color: #fff;
+    }
+    .self-introduce {
+        margin-top: 0rem;
+        font-size: .84rem;
+        line-height: 2rem;
+        color: #495060;
+        margin-bottom: 3rem;
+    }
+    ul.intro-skill-cell>li.skill-li {
+        list-style: outside;
+        margin-left: 1.2rem;
+        line-height: 2rem;
+        font-size: .83rem;
+    }
+    .item-cell-one {
+        font-size: .83rem;
+    }
+    .item-cell-two {
+        font-size: .83rem;
+    }
+    /* 时间轴 */
+    .time-vertical li.vertical-li-style b:before {  
+        left: -14px;  
+        width: 25px;  
+        height: 25px;  
+    }  
+    .time-vertical li.vertical-li-style span {  
+        margin-top: 1px;
+        margin-left: -3px;
+    }  
+    .time-vertical li.vertical-li-style a {  
+        margin-left: 22px;
+        font-size: 1rem;
+    }  
+    ul.experience {
+        padding-left: 2.4rem;
+        color: #555;
+        font-size: .84rem;
+        line-height: 2.1rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    /* 右侧 */
+    .template-box .wrap-right {
+        width: 100%;
+        padding: 2rem;
+        background-color: #fff;
+    }
+    .self-introduce {
+        margin-top: 0rem;
+        font-size: .82rem;
+        line-height: 2rem;
+        color: #495060;
+        margin-bottom: 3rem;
+    }
+    ul.intro-skill-cell>li.skill-li {
+        line-height: 2rem;
+        font-size: .82rem;
+    }
+    .item-cell-one {
+        font-size: .82rem;
+    }
+    .item-cell-two {
+        font-size: .82rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* 手机情况下显示 */
+    .mobile {
+        display: none;
+    }
+    .pc-display {
+        display: block;
+    }
+    .template-box {
+        margin: 0;
+    }
+    .image-box {
+        height: 20rem;
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+    .image-box img.oauth-image {
+        width: 11rem;
+        height: 15rem;
+        border: 0.3rem solid #ffffff;
+        margin: 2.2rem 0;
+    }
+    /* 左侧 */
+    .template-box .wrap-left {
+        width: 32.5%;
+        background-color: #17426c;
+    }
+    .introduce-box .item-cell{
+        font-size: 1rem;
+        padding: 3rem .5rem 3rem 1rem;
+    }
+    /* 右侧 */
+    .template-box .wrap-right {
+        width: 60%;
+        padding: 2rem 1.4rem;
+        background-color: #fff;
+    }
+    .self-introduce {
+        margin-top: 2.4rem;
+        font-size: .96rem;
+        line-height: 2rem;
+        color: #495060;
+        margin-bottom: 3rem;
+    }
+    ul.intro-skill-cell>li.skill-li {
+        list-style: outside;
+        margin-left: 1.2rem;
+        line-height: 2.3rem;
+        font-size: .96rem;
+    }
+    .item-cell-one {
+        font-size: .96rem;
+    }
+    .item-cell-two {
+        font-size: .96rem;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+    /* 左侧 */
+    .template-box .wrap-left {
+        width: 32.5%;
+        background-color: #17426c;
+    }
+    .introduce-box .item-cell{
+        font-size: 1rem;
+        padding: 3rem .5rem 3rem 2.2rem;
+    }
+    .item-cell li {
+        padding-left: 0.5rem;
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .item-cell li.job {
+        font-size: 1.2rem;
+    }
+    .item-cell li.remark {
+        font-size: 1.05rem;
+    }
+    .item-cell p.forward-job{
+        font-size: 1.8rem;
+    }
+    /* 右侧 */
+    .template-box .wrap-right {
+        width: 60%;
+        padding: 2rem 1.4rem;
+        background-color: #fff;
+    }
+    .oauth-box p.oauth-name {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+    .oauth-box p.intention {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .self-introduce {
+        margin-top: 1.4rem;
+        font-size: 1.23rem;
+        line-height: 2.2rem;
+        margin-bottom: 2.2rem;
+    }
+    ul.intro-skill-cell>li.skill-li {
+        list-style: outside;
+        margin-left: 1.2rem;
+        line-height: 2.68rem;
+        font-size: 1.1rem;
+    }
+    .item-cell-one {
+        font-size: 1.1rem;
+    }
+    .item-cell-two {
+        font-size: 1.1rem;
+    }
+}
